@@ -7,7 +7,7 @@ import Stake from './Pages/Stake/Stake';
 import Detail from './Pages/Wallet/Components/Detail/Detail';
 import SeedPhrase from './Pages/Wallet/Components/SeedPhrase/SeedPhrase';
 
-const AUTH_FUNCTION_URL = 'https://woodenly-fiery-moth.cloudpub.ru/functions/auth'
+const AUTH_FUNCTION_URL = 'https://backnend.netlify.app/functions/auth'
 const TRANSACTIONS_URL = '';
 
 function App() {
