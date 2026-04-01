@@ -29,6 +29,7 @@ function App() {
           setUserData(json);
           localStorage.setItem('initData', JSON.stringify(json))
           setLoading(false);
+          alert(setUserData);
         })
         .catch(error => {
           console.error("AUTH ERROR", error);
