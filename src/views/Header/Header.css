@@ -1,0 +1,88 @@
+.header-display {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;               /* гарантирует растяжение */
+  background-color: rgba(0, 0, 0, 0.5);
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);/* чёрный с прозрачностью 50% */
+  padding: 20px 20px;        /* при желании можно убрать или оставить */
+  position: sticky;
+  top: 0;
+  z-index: 100;
+  left: 0;
+  right: 0;
+  box-sizing: border-box;    /* учитывает padding в ширине */
+}
+
+.user-info-section {
+  gap: 15px;
+  align-items: center;
+  text-align: center;
+  flex-direction: row;
+  justify-content: space-between;
+  display: flex;
+}
+
+.logo {
+  color: black;
+  width: 35px;
+  height: 35px;
+  background: #ffe42d;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.name {
+  color: white;
+  font-size: 15px;
+  font-weight: 600;
+}
+
+.selector-settings-section {
+  gap: 15px;
+  align-items: center;
+  text-align: center;
+  flex-direction: row;
+  justify-content: space-between;
+  display: flex;
+}
+
+.selector {
+  background: black;
+  color: #ffe42d;
+  border-radius: 5px;
+  padding: 4px 8px;
+  font-size: 12px;
+  outline: none;
+  border: 1px solid rgba(255, 215, 0, 0.2);
+}
+
+.settings {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+
+.settings-button {
+  background-color: black;
+  border: 1px solid rgba(255, 215, 0, 0.2);
+  width: 30px;
+  height: 30px;
+  border-radius: 10px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0;
+}
+
+.settings-icon {
+  color: white;
+  font-size: 18px;
+  width: 18px;
+  height: 18px;
+}

@@ -1,0 +1,43 @@
+/* Секция с заголовком и кнопками */
+.filters-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    padding: 0 20px;
+    box-sizing: border-box;
+    margin-bottom: 10px;
+}
+
+.filters-title {
+    color: white;
+    font-weight: 600;
+    font-size: 18px;
+}
+
+.filters-buttons-section {
+    display: flex;
+    gap: 18px;
+}
+
+.filters-buttons {
+    display: flex;
+    align-items: center;
+    background-color: #FFD700;
+    color: black;
+    border: 1px solid rgba(255, 215, 0, 0.2);
+    padding: 8px 8px;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+.button-icon {
+    font-size: 12px;
+    display: flex;
+    align-items: center;
+}
+
+.button-text {
+    font-weight: 600;
+    font-size: 12px;
+}

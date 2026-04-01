@@ -1,0 +1,166 @@
+.seed-page {
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.backup-text {
+    display: flex;
+    flex-direction: column;
+}
+
+.main-text {
+    color: white;
+    font-weight: 600;
+    font-size: 20px;
+}
+
+.sub-text {
+    color: #99a1af;
+    font-size: 13px;
+}
+
+/* NEW: стили для контейнера блоков */
+.login-and-password-section {
+    padding: 10px 10px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;          /* расстояние между блоками 15px */
+}
+
+.login-and-password-block {
+
+    color: white;
+    border-radius: 15px;
+    width: 100%;
+}
+
+.block-hight-section {
+    padding: 10px 10px 0 10px;
+    justify-content: space-between;
+    display: flex;
+}
+
+.block-name {
+    margin-top: 3px;
+    color: #99a1af;
+    font-size: 12px;
+    font-weight: 500;
+}
+
+.copy-and-see-buttons {
+    display: flex;
+    gap: 9px;           
+    align-items: center;
+}
+
+.first-button, .second-button {
+    background-color: #FFD700;
+    color: black;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    font-size: 12px;
+}
+
+.copy-and-see-button {
+    display: flex;
+    gap: 8px;           
+    flex-direction: row;
+    align-items: center;
+}
+
+.block-bottom-section {
+    text-align: left;
+    padding: 3px 10px 10px 10px;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.seed-section {
+    padding: 0 20px;
+    text-align: left;
+}
+
+.seed-text {
+    color: #99a1af;
+    font-weight: 600;
+}
+
+.seed-words-section {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* 3 колонки */
+    gap: 12px;
+    margin-top: 15px;
+}
+
+.seed-word-item {
+    display: flex;
+    align-items: center;
+    background: rgba(255, 255, 255, 0.03);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 8px;
+    padding: 10px 8px;
+    gap: 8px;
+    min-height: 30px;
+}
+
+.seed-word-number {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background: rgba(255, 215, 0, 0.1);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 11px;
+    font-weight: 600;
+    color: #FFD700;
+    flex-shrink: 0;
+}
+
+.seed-word-text {
+    font-size: 15px;
+    font-weight: 500;
+}
+
+.receive-info {
+    text-align: center;
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 11px;
+    margin: 0;
+    line-height: 1.4;
+    width: 100%;
+    max-width: 350px;
+    margin-top: 15px;
+}
+
+.warning-banner {
+    background: rgba(255, 215, 0, 0.1);
+    border: 1px solid rgba(255, 215, 0, 0.2);
+    border-radius: 8px;
+    padding: 12px;
+    color: rgba(255, 255, 255, 0.8);
+    font-size: 12px;
+    text-align: center;
+    line-height: 1.4;
+    width: 100%;
+    box-sizing: border-box;
+    margin-top: 20px;
+}
+
+.copy-seed-button-section {
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-top: 25px;
+}
+
+.copy-seed-button {
+    background-color: #FFD700;
+    color: black;
+    width: 100%;
+    font-size: 15px;
+}

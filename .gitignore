@@ -1,0 +1,23 @@
+# Зависимости
+node_modules/
+vendor/
+__pycache__/
+*.pyc
+
+# Системные файлы
+.DS_Store
+Thumbs.db
+
+# Файлы IDE
+.vscode/
+.idea/
+*.swp
+
+# Сборка и артефакты
+dist/
+build/
+*.log
+
+# Секреты и окружение
+.env
+.env.local

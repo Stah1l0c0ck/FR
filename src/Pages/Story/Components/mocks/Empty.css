@@ -1,0 +1,17 @@
+.no-transactions-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.no-transaction-img {
+    color: #99a1af;
+    font-size: 40px;
+}
+
+.no-transactions-message {
+    font-weight: 600;
+    color: #99a1af;
+    font-size: 19px;
+}

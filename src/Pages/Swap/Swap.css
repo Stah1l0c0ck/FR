@@ -1,0 +1,184 @@
+/* Общий контейнер для секций */
+.swap-section {
+  display: grid;
+  grid-template-rows: auto auto auto; /* три ряда: pay, иконка, get */
+  gap: 10px; /* расстояние между рядами */
+  padding: 20px;
+  background-color: #000; /* или любой общий фон */
+}
+
+/* Общие стили для секций Pay и Get */
+.pay-section,
+.get-section {
+  background-color: #151517; /* задаём требуемый фон */
+  border-radius: 20px; /* скругление, как в дизайне */
+  padding: 16px;
+  display: flex;
+  justify-content: space-between; /* left-section слева, right-section справа */
+  align-items: center; /* выравнивание по верхнему краю */
+  color: white;
+}
+
+/* Левая часть */
+.left-section {
+  display: flex;
+  flex-direction: column; /* элементы вертикально */
+  gap: 8px;
+}
+
+/* Правая часть */
+.right-section {
+  display: flex;
+  flex-direction: column; /* элементы вертикально */
+  align-items: flex-end; /* выравнивание по правому краю */
+  gap: 8px;
+}
+
+/* Стили для текста внутри левой части */
+.section-text {
+  font-size: 14px;
+  color: #aaa;
+}
+
+.amount {
+  font-size: 32px;
+  font-weight: bold;
+}
+
+.amount-price {
+  font-size: 14px;
+  color: #aaa;
+}
+
+/* Блок с балансом */
+.token-balance {
+  font-size: 12px;
+  color: #aaa;
+}
+
+/* Контейнер для кастомного селектора */
+.token-selector {
+  width: 120px; /* задайте нужную ширину */
+  
+}
+
+/* Кастомный селектор */
+.custom-select {
+  position: relative;
+  width: 100%;
+  cursor: pointer;
+}
+
+.select-selected {
+  background-color: #000000;
+  border-radius: 12px;
+  padding: 8px 12px;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  border: 1px solid #3a3a3a;
+}
+
+.select-selected .token-icon {
+  width: 24px;
+  height: 24px;
+  border-radius: 50%;
+}
+
+.select-selected .arrow {
+  margin-left: auto;
+  font-size: 12px;
+  color: #aaa;
+}
+
+.select-options {
+  position: absolute;
+  top: 110%;
+  left: 0;
+  width: 100%;
+  background-color: #2a2a2a;
+  border-radius: 12px;
+  border: 1px solid #3a3a3a;
+  max-height: 200px;
+  overflow-y: auto;
+  z-index: 10;
+  list-style: none;
+  padding: 4px 0;
+  margin: 0;
+}
+
+.select-options li {
+  padding: 8px 12px;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  cursor: pointer;
+}
+
+.select-options li:hover,
+.select-options li.selected {
+  background-color: #3a3a3a;
+}
+
+.select-options .token-icon {
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+}
+
+/* Кнопки 50% / MAX */
+.amount-buttons {
+  display: flex;
+  gap: 8px;
+}
+
+.amount-buttons button {
+  background-color: #FFD700;
+  color: #000000;
+  border-radius: 12px;
+  padding: 4px 12px;
+  font-size: 12px;
+  cursor: pointer;
+}
+
+
+/* Контейнер иконки между секциями */
+.icon-between-sections {
+  display: flex;
+  justify-content: center; /* центрируем по горизонтали */
+  align-items: center; /* центрируем по вертикали внутри своего ряда */
+  height: 40px; /* задаём высоту, чтобы иконка была ровно посередине */
+}
+
+.icon {
+  font-size: 24px;
+  color: #FFD700;
+  background-color: #151517; /* фон под иконку, если нужно */
+  border-radius: 50%;
+  padding: 8px;
+  cursor: pointer;
+}
+
+/* Кнопка Swap */
+.button-swap-section {
+  display: flex;
+  justify-content: center;
+  padding: 20px;
+}
+
+.swap-button {
+  background-color: #FFD700;
+  border-radius: 10px;
+  color: black;
+  width: 100%;
+  padding: 12px;
+  border: none;
+  font-size: 14px;
+  font-weight: 500;
+  cursor: pointer;
+}
+
+.name-token {
+    color: #FFD700;
+}
+
