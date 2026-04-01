@@ -7,7 +7,7 @@ import Stake from './Pages/Stake/Stake';
 import Detail from './Pages/Wallet/Components/Detail/Detail';
 import SeedPhrase from './Pages/Wallet/Components/SeedPhrase/SeedPhrase';
 
-const AUTH_FUNCTION_URL = 'https://backnend.netlify.app/functions/auth'
+const AUTH_FUNCTION_URL = 'https://d47f7c799c3c28c4-82-162-123-183.serveousercontent.com/functions/auth'
 const TRANSACTIONS_URL = '';
 
 function App() {
